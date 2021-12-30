@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(127, 134, 141, 0.63);
+}
+
+.profile-content{
+    width: 100%;
+    margin-top: 14px;
+
+}
+
+.photo{
+    margin: 0 auto;
+    background-color: #7f868d;
+    text-align: center;
+    width: 70%;
+    padding: 40px 129px;
+    border: 2px solid dodgerblue;
+    border-radius: 11px;
+}
+
+h2{
+   font-size: 39px;
+   font-family: monospace;
+}
+
+.photo img{
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 131px;
+    border: 3px solid burlywood;
+}
+
+.photoo h2{
+    font-size: 41px;
+    margin-top: 22.03px;
+}
+
+.slogan {
+    font-size: 22px;
+    margin-top: 65px;
+    font-family: monospace;
+  }
+
+a{
+   text-decoration: none;
+   color: #0b4985;
+}
+
+.name{
+    width: 87%;
+    background-color: #7f868d;
+    margin: 0 auto;
+      margin-top: 0px;
+    border: 2px solid dodgerblue;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+h3{
+    width: 40%;
+    background-color: #a4aab1;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 17px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 34px;
+    font-size: 22px;
+    color: #0a0c0d;
+}
+footer {
+    text-align: end;
+    margin-right: 10px;
+}
