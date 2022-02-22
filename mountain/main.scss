@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+.container{
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 0px;
+    background-color: yellow;
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+    font-size: 35px;
+    line-height: 60px;
+    color: #fff;
+    background-color: violet;
+
+}
+.navigation{
+    height: 60px;
+    width: 30%;
+    display: inline-block;
+    margin-left: 50%;
+    font-size: 0px;
+    background-color: black;
+}
+.nav{
+    height: 60px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 0px;
+
+}
+.link{
+    height: 60px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/header-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.text{
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    text-align: center;
+    color: wheat;
+    font-family: arial;
+}
+/* hr{
+    width: 45%;
+    border: none;
+    border-top: 4px solid red;
+    margin: auto
+    
+} */
+
+.line{
+    width: 45%;
+    border: none;
+    border-top: 4px solid #EF1270;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 50px;
+}
+button{
+    background-color: #EF1270;
+    border-radius: 20px;
+    width: 97px;
+    height: 37px;
+    color: white;
+    border: none;
+}
+button:focus{
+    outline: none;
+}

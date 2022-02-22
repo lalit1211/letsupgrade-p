@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* reuseable css */
+.btn{
+    width: 102px;
+    height: 34px;
+    font-family: Arial;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(255, 6, 134);
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn:hover, .bt:hover{
+    background-color: white;
+    color: rgb(255, 6, 134);
+    border: 2px solid rgb(255, 6, 134);
+}
+
+
+/* Header Section */
+
+header{
+    width: 100%;
+    font-size: 0px;
+    height: 70px;
+    position:absolute;
+}
+.container{
+    width: 80%;
+    height: 70px;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 0px;
+}
+
+.logo{
+    display: inline-block;
+    width: 15%;
+    height: 70px;
+    font-size: 29px;
+    font-family: segoe UI;
+    font-weight: 300px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: top;
+}
+
+.navigation{
+    width: 30%;
+    display: inline-block;
+    height: 70px;
+    font-size: 16px;
+    margin-left: 55%;
+}
+.nav{
+    list-style-type: none;
+    font-size: 0px;
+    font-weight: bolder;
+
+}
+
+
+
+.link{
+    width: 20%;
+    height: 70px;
+    display: inline-block;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+li.link:last-child {
+   
+    border-radius: 18px;
+    background-color: rgb(255, 6, 134);
+    height: 25px;
+    line-height: 25px;
+}
+
+/* Banner contents */
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/header-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 20px;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 150px;
+    position: relative;
+    top: 54%;
+    color: whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+    }
+
+.line{
+    width: 20%;
+    height: 4px;
+    background-color: rgb(255, 6, 134);
+    margin: 0 auto;
+}
+
+.banner h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner h1{
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* event section */
+
+.events{
+    width: 80%;
+    margin: 0 auto;
+}
+.events h2{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.line-two{
+    width: 25%;
+    height: 4px;
+    background-color: rgb(255, 6, 134);
+    margin: 0 auto;
+}
+
+.event-section{
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 0px;
+}
+.event-one{
+    width: 44%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.event-one:hover{
+    width: 46%;
+}
+.event-one > img{
+    width: 100%    
+}
+
+
+/* advertise section  */
+.title-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    height: 200px;
+    width: 55%;
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    font-family: segoe Ui;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.39);
+    
+}
+.title .line{
+    width: 30%;
+    height: 4px;
+    background-color: rgb(255, 6, 134);
+    margin: 0 auto;
+}
+
+.gallary-wrapper{
+    height: 70vh;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.gallary-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallary-title{
+    width: 36%;
+    height: 60%;
+    font-size: 27px;
+}
+.gallary-title .line{
+    text-align: left;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.bt{
+    background-color: rgb(255, 6, 134);
+    height: 31px;
+    padding: 0 13px;
+    border: none;
+    border-radius: 29px;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+.gallary-image{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallary{
+    padding-left: 10px;
+    overflow: hidden;
+}
+.image{
+    height: 45%;
+    width: 49%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+img{
+    width: 100%;
+    
+}
+.image:hover{
+    transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    text-align: center;
+}
+footer p{
+padding-top: 22px;
+}
