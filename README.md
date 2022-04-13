@@ -2,22 +2,22 @@
 https://lalit1211.github.io/letsupgrade-p/E-commerce
 
 Lucky Game
-https://lalit1211.github.io/letsupgrade-p/Lucky Game
+https://lalit1211.github.io/letsupgrade-p/LuckyGame
 
 Portfolio
 https://lalit1211.github.io/letsupgrade-p/Portfolio
 
+Mountain
+https://lalit1211.github.io/letsupgrade-p/Mountain
 
-https://lalit1211.github.io/letsupgrade-p/E-commerce
+Movie Fetcher
+https://lalit1211.github.io/letsupgrade-p/movie-fetcher
 
+Shoping
+https://lalit1211.github.io/letsupgrade-p/Shoping
 
-https://lalit1211.github.io/letsupgrade-p/E-commerce
+Media Link
+https://lalit1211.github.io/letsupgrade-p/medialink
 
-
-https://lalit1211.github.io/letsupgrade-p/E-commerce
-
-
-https://lalit1211.github.io/letsupgrade-p/E-commerce
-
-
-https://lalit1211.github.io/letsupgrade-p/E-commerce
+Responsive
+https://lalit1211.github.io/letsupgrade-p/Responsive
